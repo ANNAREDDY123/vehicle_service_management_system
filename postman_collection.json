@@ -1,0 +1,43 @@
+{
+  "info": {
+    "name": "Vehicle Service Management System",
+    "description": "Postman Collection for Vehicle Service APIs"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/register"
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/login"
+      }
+    },
+    {
+      "name": "Add Customer",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/customers"
+      }
+    },
+    {
+      "name": "Add Vehicle",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/vehicles"
+      }
+    },
+    {
+      "name": "Create Service Request",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/services"
+      }
+    }
+  ]
+}
